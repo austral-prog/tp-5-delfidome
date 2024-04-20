@@ -1,13 +1,13 @@
 import math
 def roots(a, b, c):
-    var1 = b**2 - 4*a*c
+    var1 = b**2-4*a*c
     if var1 < 0:
         return "( )"
         
     raiz = math.sqrt(var1)
     resultado1= (-b+raiz)/2*a
     resultado2= (-b-raiz)/2*a
-    if resultado1 == resultado2:
+    if resultado1==resultado2:
         return f"({resultado1})"
     else:
         return f"({resultado1}, {resultado2})"
