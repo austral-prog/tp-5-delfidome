@@ -11,7 +11,6 @@ def roots(a, b, c):
         return f"({resultado1})"
     else:
         return f"({resultado1}, {resultado2})"
-
 def value_y(a, b, c, x):
     imagen= a*(x**2) + b*x + c
     return imagen
