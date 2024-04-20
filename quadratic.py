@@ -35,4 +35,4 @@ def derivation(a, b, c):
     elif not a:
         return f"f'(x) = {b}"
     elif not b:
-        return f"f'f(x) = {2 * a} * X"
+        return f"f'(x) = {2 * a} * X"
