@@ -5,12 +5,12 @@ def roots(a, b, c):
         return "( )"
         
     raiz = math.sqrt(var1)
-    resultado1= (-b+raiz)/2*a
-    resultado2= (-b-raiz)/2*a
-    if resultado1==resultado2:
-        return f"({resultado1})"
+    result1= (-b+raiz)/2*a
+    result2= (-b-raiz)/2*a
+    if result1==result2:
+        return f"({result1})"
     else:
-        return f"({resultado1}, {resultado2})"
+        return f"({result1}, {result2})"
 def value_y(a, b, c, x):
     imagen= a*(x**2) + b*x + c
     return imagen
